@@ -42,7 +42,9 @@ Peachman, R. R. Will the New CDC Opioid Prescribing Guidelines Help Correct the 
 
 ## Raw HTML
 
-This is how the above addresses appear without html
+This is how the above addresses appear without compiling the html.
+
+This is what may be copied and pasted into the References field of an Anki card.
 
 ```
 Blum, D. <a href="https://www.nytimes.com/2023/02/24/well/eat/ozempic-side-effects-alcohol.html">Some People on Ozempic Lose the Desire to Drink. Scientists Are Asking Why.</a> The New York Times (2023)
