@@ -8,7 +8,7 @@ I want the citation titles to be html <a> tags that will be clickable in Anki ca
 
 I used as a template [A minimal citation style (for grant proposals)](https://anton.cromba.ch/2016/02/07/a-minimal-citation-stylefor-grant-proposals/) by Anton Cromba.
 
-# Cmd+Shift+C in Zotero
+# `Cmd`+`Shift`+`C` in Zotero
 
 Press `Cmd`+`Shift`+`C` while highlighting one or more references in Zotero.
 
