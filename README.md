@@ -30,3 +30,8 @@ How to learn [Escape Characters in XML](https://stackoverflow.com/questions/1091
 
 # Examples
 
+Blum, D. <a href="https://www.nytimes.com/2023/02/24/well/eat/ozempic-side-effects-alcohol.html">Some People on Ozempic Lose the Desire to Drink. Scientists Are Asking Why.</a> The New York Times (2023)
+Gandhi, M. et al. in (2023)
+Walter, K. Fentanyl Overdose JAMA 329, 184 (2023)
+Peachman, R. R. Will the New CDC Opioid Prescribing Guidelines Help Correct the Course in Pain Care? JAMA 329, 111–113 (2023)
+
