@@ -86,8 +86,6 @@
           <if type="chapter paper-conference" match="any">
             <text term="in" form="long" plural="false"/>
           </if>
-        </choose>
-        <choose>
           <if variable="URL">
             <text variable="URL" prefix="&lt;a href=&quot;" suffix="&quot;&gt;"/>
             <text macro="title" suffix="&lt;/a&gt;"/>
