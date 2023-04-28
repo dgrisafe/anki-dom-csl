@@ -45,8 +45,6 @@ Peachman, R. R. Will the New CDC Opioid Prescribing Guidelines Help Correct the 
 This is how the above addresses appear without html
 
 ```
-Note, some examples have URL links that hyperlink while others do not, but they all show in a similar format.
-
 Blum, D. <a href="https://www.nytimes.com/2023/02/24/well/eat/ozempic-side-effects-alcohol.html">Some People on Ozempic Lose the Desire to Drink. Scientists Are Asking Why.</a> The New York Times (2023)
 
 Gandhi, M. et al. in (2023)
