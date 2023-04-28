@@ -51,14 +51,7 @@
     </choose>
   </macro>
   <macro name="container-title">
-    <choose>
-      <if type="article-journal">
-        <text variable="container-title" font-style="italic" form="short"/>
-      </if>
-      <else>
-        <text variable="container-title" font-style="italic"/>
-      </else>
-    </choose>
+    <text variable="container-title" font-style="italic" form="short"/>
   </macro>
   <macro name="editor">
     <choose>
@@ -86,12 +79,17 @@
           <if type="chapter paper-conference" match="any">
             <text term="in" form="long" plural="false"/>
           </if>
-          <if variable="URL">
-            <group>
-              <text variable="URL" prefix="&lt;a href=&quot;" suffix="&quot;&gt;"/>
-              <text macro="title" suffix="&lt;/a&gt;"/>
-            </group>
+        </choose>
+        
+        <choose>
+          <if variable="DOI">
+            <text variable="DOI" prefix="&lt;a href=&quot;" suffix="&quot;&gt;"/>
+            <text macro="title" suffix="&lt;/a&gt;"/>
           </if>
+          <else-if variable="URL">
+            <text variable="URL" prefix="&lt;a href=&quot;" suffix="&quot;&gt;"/>
+            <text macro="title" suffix="&lt;/a&gt;"/>
+          </else-if>
           <else>
             <text macro="title"/>
           </else>
