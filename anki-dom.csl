@@ -83,7 +83,7 @@
         
         <choose>
           <if variable="DOI">
-            <text variable="DOI" prefix="&lt;a href=&quot;" suffix="&quot;&gt;"/>
+            <text variable="DOI" prefix="&lt;a href=&quot;https://doi.org/" suffix="&quot;&gt;"/>
             <text macro="title" suffix="&lt;/a&gt;"/>
           </if>
           <else-if variable="URL">
