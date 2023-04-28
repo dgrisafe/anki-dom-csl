@@ -80,9 +80,9 @@
         </choose>
         
         <choose>
-          <if>
+          <if variable="URL">
             <text variable="URL" prefix="&lt;a href=&quot;"/>
-	          <text macro="container-title"/>
+            <text macro="container-title"/>
           </if>
           <else>
             <text macro="container-title"/>
