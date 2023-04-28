@@ -77,13 +77,18 @@
           <if type="chapter paper-conference" match="any">
             <text term="in" form="long" plural="false"/>
           </if>
-          <if variable="URL">
-            <group delimiter=". ">
-              <text variable="URL" />
-            </group>
-          </if>
         </choose>
-        <text macro="container-title"/>
+        
+        <choose>
+          <if>
+            <text variable="URL" prefix="&lt;a href=&quot;"/>
+	          <text macro="container-title"/>
+          </if>
+          <else>
+            <text macro="container-title"/>
+          </else>
+        </choose>
+
         <text macro="editor"/>
         <text variable="volume" form="short" font-weight="normal" suffix=","/>
         <text variable="page" form="short"/>
