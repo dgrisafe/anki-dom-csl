@@ -76,11 +76,6 @@
       <group delimiter=" ">
         <text macro="author" suffix="."/>
         <choose>
-          <if type="chapter paper-conference" match="any">
-            <text term="in" form="long" plural="false"/>
-          </if>
-        </choose>
-        <choose>
           <if variable="DOI">
             <group>
               <text variable="DOI" prefix="&lt;a href=&quot;https://doi.org/" suffix="&quot;&gt;"/>
