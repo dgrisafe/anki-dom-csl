@@ -23,6 +23,16 @@
       <et-al font-style="italic"/>
     </names>
   </macro>
+  <macro name="title">
+    <choose>
+      <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
+        <text variable="title" text-case="title" font-style="italic"/>
+      </if>
+      <else>
+        <text variable="title" text-case="title"/>
+      </else>
+    </choose>
+  </macro>
   <macro name="issuance">
     <choose>
       <if type="bill book graphic legal_case legislation motion_picture report song thesis chapter paper-conference" match="any">
@@ -70,7 +80,6 @@
   </citation>
   <bibliography et-al-min="2" et-al-use-first="1" entry-spacing="0">
     <layout>
-      <text variable="citation-number" font-weight="bold" suffix=" "/>
       <group delimiter=" ">
         <text macro="author" suffix="."/>
         <choose>
@@ -78,17 +87,16 @@
             <text term="in" form="long" plural="false"/>
           </if>
         </choose>
-        
         <choose>
           <if variable="URL">
-            <text variable="URL" prefix="&lt;a href=&quot;"/>
-            <text macro="container-title"/>
+            <text variable="URL" prefix="&lt;a href=&quot;" suffix="&quot;&gt;"/>
+            <text macro="title" suffix="&lt;/a&gt;"/>
           </if>
           <else>
-            <text macro="container-title"/>
+            <text macro="title"/>
           </else>
         </choose>
-
+        <text macro="container-title"/>
         <text macro="editor"/>
         <text variable="volume" form="short" font-weight="normal" suffix=","/>
         <text variable="page" form="short"/>
