@@ -20,7 +20,7 @@ This will create a clean format for references, which may be consistently used a
 
 How to learn [Escape Characters in XML](https://stackoverflow.com/questions/1091945/what-characters-do-i-need-to-escape-in-xml-documents) so html tags can be automatically incorporated into quick copy.
 
-|char|code|
+|character|code|
 |--|--|
 |`"`|`&quot;`|
 |`'`|`&apos;`|
